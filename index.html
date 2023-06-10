@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" href="/img/icon.png" class="icon" type="image/x-icon">
+  <script src="/js/index.js"></script>
+  <title>Exemplo de Botão para Formulário</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="#footer">Ajuda</a></li>
+            <li><a class="sair" href="#">Sair</a></li>
+          </ul>
+        </nav>
+      </header>
+  <div class="container">
+
+    <div id="adicionar" class="adicionar">
+        <h2>Adicione uma nova tarefa</h2>
+    <button class="button" id="botao-formulario">Adicionar tarefa</button>
+    </div>
+    <form id="form-cadastro">
+      <div class="input-group">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Titulo..." required>
+      </div>
+      <div class="input-group">
+        <label >Descrição:</label>
+       <input id="descricao" class="descricao" type="text" placeholder="Descriçâo...">
+      </div>
+      <button class="button" type="submit">Enviar</button>
+    </form>
+
+    
+    <h4 class="tarefascadastradas">Tarefas Cadastradas</h4>
+    <input class="search" type="search" placeholder="Pesquisar Tarefa...">
+    <div id="tarefas-cadastradas"></div>
+      
+
+  </div>
+  <footer id="footer" class="footer">
+    <ul>
+      <li><a href="#"><i class="email fas fa-envelope fa-4x"></i></a></li>
+      <li><a href="#"><i class="linkedin fab fa-linkedin fa-4x"></i></a></li>
+      <li><a href="#"><i class="instagram fab fa-instagram fa-4x"></i></a></li>
+      <li><a href="https://github.com/jaolag"><i class="github fab fa-github fa-4x"></i></a></li>
+    </ul>
+    <p>Feito por João V.</p>
+  </footer>
+</body>
+</html>

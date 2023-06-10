@@ -1,0 +1,204 @@
+body {
+    font-family: 'Montserrat Alternates', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(97,75,162);
+    background: linear-gradient(90deg, rgba(97,75,162,1) 
+    14%, rgba(55,24,147,1) 29%,
+     rgba(68,43,143,1) 45%, rgba(35,9,111,1) 56%,
+      rgba(42,19,108,1) 64%, rgba(20,2,71,1) 75%, rgba(69,44,144,1) 100%, rgba(0,212,255,1) 100%);
+  }
+
+  .titulo {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .link-github {
+    float: left;
+  }
+
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+
+  nav ul li a:hover {
+    background-color: #483D8B;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  .signup {
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color: #836FFF;
+    color: white;
+  }
+
+  section {
+    padding: 150px;
+    color: white;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .container {
+    color: #fff;
+  }
+
+  .white {
+    padding: 50px;
+    color: #836FFF;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .section1 {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+
+  img {
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .paragrafo {
+    padding: 2rem;
+    color: #333;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: 300px;
+    margin: 20px;
+  }
+
+  i {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .card-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 100px;
+    background-color: #fff;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  footer p {
+    margin-top: 0;
+  }
+
+  .email,
+  .linkedin,
+  .instagram,
+  .github {
+    color: #483D8B;
+  }
+
+  .login {
+    text-align: center;
+    display: inline-block;
+    background-color: #836FFF;
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 20px 40px;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      padding: 30px;
+    }
+
+    .white {
+      padding: 30px;
+    }
+
+    .section1 {
+      flex-direction: column;
+    }
+
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      width: 80%;
+      margin: 20px 0;
+    }
+  }

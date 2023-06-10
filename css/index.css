@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat Alternates', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(97,75,162);
+    background: linear-gradient(90deg, rgba(97,75,162,1) 
+    14%, rgba(55,24,147,1) 29%,
+     rgba(68,43,143,1) 45%, rgba(35,9,111,1) 56%,
+      rgba(42,19,108,1) 64%, rgba(20,2,71,1) 75%, rgba(69,44,144,1) 100%, rgba(0,212,255,1) 100%);
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #836FFF;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  i {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+  }
+  footer {
+    margin-top: 600px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  footer p {
+    margin-top: 0;
+  }
+  .email,
+  .linkedin,
+  .instagram,
+  .github {
+    color: #483D8B;
+  }
+.sair{
+    margin-left: 150px;
+}
+  h2 {
+    text-align: center;
+    color: #fff;
+    
+  }
+
+  form {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+
+  }
+  .descricao{
+    height: 4rem;
+    margin-right: 10px;
+  }
+  input[type="text"],
+  .descricao{
+    width: 680px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:#fff;
+    color: #483D8B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color:#483D8B;
+    color: #fff;
+  }
+  .adicionar{
+    display: flex;
+    color: #fff;
+  }
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+
+  nav ul li a:hover {
+    background-color: #483D8B;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .card {
+    margin-bottom: 20px;
+    color: white;
+  }
+  .tarefascadastradas{
+    color: #fff;
+  }
+  .card-header {
+    background-color: #f5f5f5;
+  }
+
+  .card-body {
+    padding: 20px;
+    color: white;
+    background-color: white;
+  }
+  
+  .search{
+    border: #fff;
+    border-radius: 10px;
+    height: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .tarefa-card {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    word-wrap: break-word; /* Adiciona a quebra de linha para o texto longo */
+  }
+  
+  .tarefa-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px dotted gray;
+  }
+  
+  .tarefa-descricao {
+    font-size: 14px;
+    color: #888;
+  }
+
+/* Estilização para os botões de edição e exclusão */
+.edit-button-container,
+.delete-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.edit-button-container button,
+.delete-button-container button {
+  background-color: #836FFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-button-container button:hover,
+.delete-button-container button:hover {
+  background-color:#483D8B;
+}
+
+.edit-button-container button:focus,
+.delete-button-container button:focus {
+  outline: none;
+}

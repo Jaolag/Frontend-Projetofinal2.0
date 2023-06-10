@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/img/icon.png" class="icon" type="image/x-icon">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="/css/login.css">
+  <script src="/js/login.js" defer></script> 
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        
+        <li><a href="home.html">Inicio</a></li>
+        <li><a href="signup.html">Criar Conta</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Faça seu Login:</h1>
+    <form id="form-login" action="login">
+      <label for="username">Usuário:</label>
+      <input type="text" id="usuario" name="usuario" required>
+      <label for="password">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <div id="mensagem">
+      <p>Login realizado com sucesso!</p>
+      <img src="/img/sucess.gif" alt="Imagem de sucesso">
+    </div>
+    <p>Ainda não tem uma Conta?<a href="signup.html">Criar Conta</a></p>
+  </div>
+  <div id="mensagem-erro" style="display: none;">
+    <p>Ocorreu um erro no login!</p>
+    <img src="/img/wrong.gif" alt="Imagem de erro">
+  </div>
+</body>
+</html>
